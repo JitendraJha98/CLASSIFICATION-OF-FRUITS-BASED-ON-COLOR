@@ -1,6 +1,6 @@
 # CLASSIFICATION-OF-FRUITS-BASED-ON-COLOR
 
-1.INTRO
+#### 1.INTRO
 
 Fruit quality is important since it is utilised in a number of applications such as export, fruit jam production, and fruit juice production. The fruit business is critical to a country's economic development. Fruit classification and quality assessment is currently a key study topic in the mechanised world. The main focus of this project is on a cost-effective method of analysing the quality of fruits based on colour, shape, and size.
 Here we use different classification models for classification of fruits.
@@ -12,7 +12,7 @@ KNN is a non-parametric and lazy learning algorithm. Non-parametric means there 
 
 
 
-2.1 DATASET BREIFING
+#### 2.1 DATASET BREIFING
 
 
 
@@ -27,7 +27,7 @@ There is total 59 observations in data set. There is total seven columns out of 
 
 
 
-2.2 EDA
+#### 2.2 EDA
 
 To get maximum insights of data we performed EDA which uncovered the underlying structure and distribution of data.
 To begin, we created a histogram to visualise the data distribution. We can see how the data in different columns varies.
@@ -36,7 +36,7 @@ After that, we plotted pair plot to analyze the relationship of dependent variab
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/72140481/164286899-bb87bf3a-a691-486e-8cc6-780a53447e9a.png">
 
 
-2.3 Feature Selection
+#### 2.3 Feature Selection
 
 After analysing the relationship, we attempted to extract a feature that we might utilise to create a more accurate prediction model. We used a heatmap to identify the association between different factors in order to achieve this goal.
 <img width="348" alt="image" src="https://user-images.githubusercontent.com/72140481/164286927-c7a3aadb-f498-4ee6-8785-46d514065129.png">
@@ -60,13 +60,13 @@ For apple it is 1, for mandarin it is 2. for orange it is 3 and for lemon it is 
 
 
 
-2.3 Train Test Split
+#### 2.3 Train Test Split
 Following feature selection, we separated the entire dataset into train and test datasets, with 1/3 used for testing and the remaining 2/3 for training.
 
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/72140481/164287026-bd1a193c-3f9b-4c33-8899-1cf92bd68d27.png">
 
 
-2.4 Classification Models
+#### 2.4 Classification Models
 
 After splitting the dataset into train and test datasets we used K-Nearest Neighbors classifier to predict a new record on the basis of this data. For classification purpose we are using 10 distinct values at a time.
 
@@ -86,18 +86,18 @@ We have also used other algorithms to train our data and the prediction scores o
 2.5.1 Support Vector Machine Algorithm
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/72140481/164287111-6deae5a6-bbd8-46c5-8fda-6773cced96f8.png">
 
-2.5.2 Decision Tree Classifier
+#### 2.5.2 Decision Tree Classifier
 
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/72140481/164287126-fd84dcfa-472f-466a-9972-a8ff83bee606.png">
 
 
 
 
-2.5.3 Naive Bayes Algorithm
+#### 2.5.3 Naive Bayes Algorithm
 
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/72140481/164287139-f00a16d9-a9cd-4bf2-ac8f-c497bc1b7851.png">
 
-2.5.3 Random Forest Classifier
+#### 2.5.3 Random Forest Classifier
 
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/72140481/164287151-ae04f926-dbbf-4e2f-a480-59a76d2d4be9.png">
 
@@ -106,10 +106,10 @@ We have also used other algorithms to train our data and the prediction scores o
 
 
 
-2.Results and prediction
+## 2.Results and prediction
 
 
-Different classification model analysis on same dataset
+##### Different classification model analysis on same dataset
 
 Finally, we selected K- nearest neighbor Classifier for classification. As KNN is a non-parametric and lazy learning algorithm. Non-parametric means there is no assumption for underlying data distribution. In other words, the model structure determined from the dataset. This will be very helpful in practice where most of the real-world datasets do not follow mathematical theoretical assumptions. Lazy algorithm means it does not need any training data points for model generation. All training data used in the testing phase.
 Which is further supported by the following statistics and results.
@@ -119,10 +119,10 @@ Which is further supported by the following statistics and results.
 
 
 
-STATISTICS
+#### STATISTICS
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/72140481/164287189-168fe2bd-46b1-4261-be8c-e37bc4fea24f.png">
 
-Result
+##Result
 
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/72140481/164288237-fc04e339-4f8f-48f4-abd1-cf13dea8e9d7.png">
 
