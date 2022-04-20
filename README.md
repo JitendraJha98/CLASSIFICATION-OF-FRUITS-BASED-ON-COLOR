@@ -122,7 +122,9 @@ Which is further supported by the following statistics and results.
 STATISTICS
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/72140481/164287189-168fe2bd-46b1-4261-be8c-e37bc4fea24f.png">
 
-
 Result
+
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/72140481/164288237-fc04e339-4f8f-48f4-abd1-cf13dea8e9d7.png">
+
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/72140481/164287207-68194120-1711-448a-938a-92d52854a909.png">
 
